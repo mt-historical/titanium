@@ -1,1 +1,4 @@
 default
+3d_armor?
+more_monoids?
+terumet?
