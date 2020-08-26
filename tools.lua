@@ -11,7 +11,9 @@ minetest.register_tool("titanium:sword", {
             choppy={times={[3]=0.70}, uses=100, maxlevel=0}
         },
         damage_groups = {fleshy=10.00}
-    }
+    },
+    groups = {sword = 1},
+    sound = {breaks = "default_tool_breaks"}
 })
 
 minetest.register_craft({
@@ -34,6 +36,8 @@ minetest.register_tool("titanium:axe", {
         },
         damage_groups = {fleshy=10.00}
     },
+    groups = {axe = 1},
+    sound = {breaks = "default_tool_breaks"}
 })
 
 minetest.register_craft({
@@ -55,6 +59,8 @@ minetest.register_tool("titanium:shovel", {
         },
         damage_groups = {fleshy=4.00}
     },
+    groups = {shovel = 1},
+    sound = {breaks = "default_tool_breaks"},
 })
 
 minetest.register_craft({
@@ -79,6 +85,8 @@ minetest.register_tool("titanium:pick", {
         },
         damage_groups = {fleshy=4.00}
     },
+    groups = {pickaxe = 1},
+    sound = {breaks = "default_tool_breaks"},
 })
 
 minetest.register_craft({
