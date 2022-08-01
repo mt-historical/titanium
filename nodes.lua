@@ -6,7 +6,7 @@ minetest.register_craftitem( "titanium:titanium", {
 
 minetest.register_node( "titanium:titanium_in_ground", {
     description = "Titanium Ore",
-    tile_images = { "default_stone.png^titanium_titanium_in_ground.png" },
+    tiles = { "default_stone.png^titanium_titanium_in_ground.png" },
     is_ground_content = true,
     groups = {cracky=1},
     sounds = default.node_sound_stone_defaults(),
@@ -15,7 +15,7 @@ minetest.register_node( "titanium:titanium_in_ground", {
 
 minetest.register_node( "titanium:block", {
     description = "Titanium Block",
-    tile_images = { "titanium_block.png" },
+    tiles = { "titanium_block.png" },
     is_ground_content = true,
     groups = {cracky=1},
     sounds = default.node_sound_stone_defaults(),
@@ -40,7 +40,7 @@ minetest.register_craft({
 minetest.register_node("titanium:glass", {
     description = "Titanium Glass",
     drawtype = "glasslike",
-    tile_images = {"titanium_glass.png"},
+    tiles = {"titanium_glass.png"},
     light_propagates = true,
     paramtype = "light",
     sunlight_propagates = true,
@@ -74,7 +74,7 @@ minetest.register_craft({
 
 minetest.register_node( "titanium:titanium_plate", {
     description = "Titanium Plate",
-    tile_images = {"titanium_plate.png"},
+    tiles = {"titanium_plate.png"},
     inventory_image = "titanium_plate.png",
     is_ground_content = true,
     groups = {cracky=1},
