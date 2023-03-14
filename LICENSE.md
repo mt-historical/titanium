@@ -1,6 +1,7 @@
 # The MIT License (MIT)
 
 Copyright © 2012-2013 by [Aqua](https://forum.minetest.net/viewtopic.php?f=11&t=3113)
+
 Copyright © 2019-2021 by [flux](https://github.com/fluxionary)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
